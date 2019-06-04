@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/alexandreroulin/IRC/incs/irc.h
+stdio.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+stdlib.h
+-
+strings.h
+-
+unistd.h
+-
+stdbool.h
+-
+
+/Users/alexandreroulin/IRC/srcs/server/server.c
+fcntl.h
+-
+../../incs/irc.h
+/Users/alexandreroulin/IRC/incs/irc.h
+
